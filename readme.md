@@ -1,6 +1,6 @@
 # mycomp-aes [![Build Status](https://travis-ci.org/arvindr21/mycomp-aes.svg?branch=master)](https://travis-ci.org/arvindr21/mycomp-aes)
 
-> My slick module
+> Custom aes crpyt module
 
 
 ## Install
@@ -13,32 +13,12 @@ $ npm install --save mycomp-aes
 ## Usage
 
 ```js
-var mycompAes = require('mycomp-aes');
+var aes = require('./index.js')();
 
-mycompAes('unicorns');
-//=> 'unicorns & rainbows'
+aes.enc([0x00000000,0x00000000,0x00000000,0x00000000]);
+aes.dec([0xd241aab0,0x5a42d319,0xde81d874,0xf5c7b90d]);
+
 ```
-
-
-## API
-
-### mycompAes(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 
