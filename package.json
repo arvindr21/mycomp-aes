@@ -1,0 +1,31 @@
+{
+  "name": "mycomp-aes",
+  "version": "0.1.0",
+  "description": "My slick module",
+  "license": "MIT",
+  "repository": "arvindr21/mycomp-aes",
+  "author": {
+    "name": "Arvind Ravulavaru",
+    "email": "arvind.ravulavaru@gmail.com",
+    "url": "github.com/arvindr21"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "aes": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
